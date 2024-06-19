@@ -1,0 +1,9 @@
+ 00_hellà.rb: Il demande à l'utilisateur son prénom avec ask_first_name, puis utilise ce prénom pour saluer l'utilisateur avec say_hello. L'utilisateur voit donc un message lui demandant son prénom, puis reçoit un message de salutation personnalisé.
+
+ 01_pyramids.rb: Le code `wtf_pyramid` construit une pyramide en losange en demandant d'abord à l'utilisateur de saisir un nombre impair d'étages. Si l'utilisateur saisit un nombre pair, le programme affiche un message d'erreur et s'arrête. Ensuite, le programme construit la partie supérieure de la pyramide en utilisant une boucle `times` pour itérer sur chaque niveau et afficher le bon nombre d'espaces et de blocs `#`. Après avoir construit le centre de la pyramide avec une ligne de `#`, le programme construit la partie inférieure de la pyramide de manière similaire à la partie supérieure, mais en inversant la direction des espaces et des blocs `#`. Cela donne une pyramide en losange avec un sommet et deux côtés symétriques.
+
+ 02password: Le code  implémente un système d'inscription et de connexion basique. La méthode signup demande à l'utilisateur de définir un mot de passe, stocké dans la variable @password. La méthode login demande à l'utilisateur de saisir son mot de passe, et tant que le mot de passe saisi ne correspond pas à celui enregistré, l'utilisateur est invité à réessayer. Une fois la connexion réussie, la méthode welcome_screen affiche un message de bienvenue. La méthode perform appelle successivement les méthodes signup, login et welcome_screen pour simuler le processus d'inscription, de connexion et d'affichage des secrets.
+
+ 03_stairway.rb: Simule le jeu des marches pour 100 parties. Calculez le nombre moyen de tours pour atteindre la 10ème marche. Afficher le résultat.
+
+TRAORE Adama, Seydina Issa, SARR Ousmane.
